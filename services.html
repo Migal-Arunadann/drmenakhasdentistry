@@ -1,0 +1,572 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dental Services | Dr Menakha's Dentistry | Kolathur, Chennai</title>
+  <meta name="description" content="Prosthodontics, Dental Implants, Restorative and Preventive Dental Services in Kolathur, Chennai by Dr. P. Menakhasundhari M.D.S. Evening appointments.">
+  <link rel="canonical" href="https://drmenakhasdentistry.com/services">
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://drmenakhasdentistry.com/services">
+  <meta property="og:title" content="Dental Services | Dr Menakha's Dentistry | Kolathur">
+  <meta property="og:description" content="Specialized Prosthodontic care, Dental Implants, and Family Dentistry in Kolathur, Chennai.">
+  <meta property="og:image" content="https://drmenakhasdentistry.com/assets/images/clinic-operatory.png">
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400;1,600&family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400&display=swap" rel="stylesheet">
+
+  <link rel="icon" type="image/x-icon" href="favicon.ico">
+  <link rel="icon" type="image/png" href="assets/logo/favicon.png">
+  <link rel="stylesheet" href="assets/css/main.css?v=7">
+
+  <style>
+    /* Specific styles for editorial services page */
+    .services-layout-grid {
+      display: grid;
+      grid-template-columns: 280px 1fr;
+      gap: clamp(2.5rem, 5vw, 4.5rem);
+      align-items: start;
+    }
+
+    .services-sticky-sidebar {
+      position: sticky;
+      top: calc(var(--header-compact) + 2rem);
+      display: flex;
+      flex-direction: column;
+      gap: 0.5rem;
+      background: var(--color-surface);
+      padding: 1.5rem;
+      border: 1px solid var(--border-light);
+      border-radius: 2px;
+      box-shadow: var(--shadow-subtle);
+    }
+
+    .services-nav-anchor {
+      font-size: 0.92rem;
+      font-weight: 500;
+      color: var(--color-text-muted);
+      padding: 0.6rem 0.8rem;
+      border-radius: 2px;
+      transition: all var(--transition-fast);
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+
+    .services-nav-anchor:hover,
+    .services-nav-anchor.active {
+      color: var(--color-slate-900);
+      background-color: var(--color-surface-subtle);
+      font-weight: 600;
+    }
+
+    .services-nav-anchor.active {
+      border-left: 2px solid var(--color-gold-500);
+    }
+
+    .service-category-block {
+      margin-bottom: clamp(3.5rem, 6vw, 5.5rem);
+      scroll-margin-top: calc(var(--header-compact) + 3rem);
+    }
+
+    .service-category-head {
+      margin-bottom: 2rem;
+      padding-bottom: 1.25rem;
+      border-bottom: 1px solid var(--border-light);
+    }
+
+    .service-category-num {
+      font-family: var(--font-serif);
+      font-size: 1.2rem;
+      color: var(--color-gold-600);
+      margin-bottom: 0.25rem;
+    }
+
+    .service-detail-item {
+      padding: 2rem 0;
+      border-bottom: 1px solid rgba(19, 27, 31, 0.06);
+    }
+
+    .service-detail-item:last-child {
+      border-bottom: none;
+    }
+
+    .service-detail-title-row {
+      display: flex;
+      justify-content: space-between;
+      align-items: baseline;
+      margin-bottom: 0.75rem;
+      flex-wrap: wrap;
+      gap: 0.5rem;
+    }
+
+    .service-detail-title {
+      font-size: 1.6rem;
+      font-weight: 600;
+      margin: 0;
+    }
+
+    .service-tamil-sub {
+      font-size: 0.88rem;
+      color: var(--color-gold-600);
+      font-weight: 500;
+    }
+
+    .service-scope-tags {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.5rem;
+      margin-top: 1rem;
+    }
+
+    .service-badge {
+      font-size: 0.78rem;
+      font-weight: 500;
+      background-color: var(--color-surface-subtle);
+      color: var(--color-text-muted);
+      padding: 0.25rem 0.7rem;
+      border-radius: 2px;
+      border: 1px solid var(--border-light);
+    }
+
+    @media (max-width: 900px) {
+      .services-layout-grid {
+        grid-template-columns: 1fr;
+      }
+      .services-sticky-sidebar {
+        display: none; /* Mobile switches to clean linear layout */
+      }
+    }
+  </style>
+
+  <!-- Schema.org -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "MedicalBusiness",
+    "name": "Dr Menakha's Dentistry Services",
+    "url": "https://drmenakhasdentistry.com/services",
+    "medicalSpecialty": [
+      "Prosthodontics",
+      "Implantology",
+      "Restorative Dentistry",
+      "Preventive Dentistry"
+    ],
+    "parentOrganization": {
+      "@type": "Dentist",
+      "name": "Dr Menakha's Dentistry",
+      "telephone": "+91-7200802900",
+      "address": "Plot No.7, Devaki Nagar 2nd Cross St, Ponniyammanmedu, Kolathur, Chennai 600110"
+    }
+  }
+  </script>
+</head>
+<body>
+
+  <!-- Header -->
+  <header class="site-header" role="banner">
+    <div class="container header-inner">
+      <a href="index.html" class="brand-logo-link" aria-label="Dr Menakha's Dentistry Home">
+        <picture>
+          <source srcset="assets/logo/clinic-logo.webp" type="image/webp">
+          <img src="assets/logo/clinic-logo.png" alt="Dr Menakha's Dentistry" class="brand-logo-img" width="235" height="83" fetchpriority="high">
+        </picture>
+      </a>
+
+      <nav class="desktop-nav" role="navigation" aria-label="Main Navigation">
+        <a href="index.html" class="nav-link">Home</a>
+        <a href="about.html" class="nav-link">About</a>
+        <a href="services.html" class="nav-link active">Services</a>
+        <a href="contact.html" class="nav-link">Contact</a>
+      </nav>
+
+        <a href="tel:07200802900" class="header-phone-link">
+          <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
+          <span>072008 02900</span>
+        </a>
+        <a href="https://wa.me/917200802900?text=Hello%20Dr.%20Menakha's%20Dentistry,%20I%20would%20like%20to%20consult%20regarding%20an%20appointment." target="_blank" rel="noopener" class="btn btn-whatsapp btn-sm" aria-label="Chat on WhatsApp">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12.04 2c-5.46 0-9.91 4.45-9.91 9.91 0 1.75.46 3.45 1.32 4.95L2.05 22l5.25-1.38c1.45.79 3.08 1.21 4.74 1.21 5.46 0 9.91-4.45 9.91-9.91 0-2.65-1.03-5.14-2.9-7.01A9.816 9.816 0 0 0 12.04 2zm.01 1.67c2.2 0 4.26.86 5.82 2.42a8.225 8.225 0 0 1 2.41 5.83c0 4.54-3.7 8.24-8.24 8.24-1.48 0-2.93-.4-4.2-1.15l-.3-.18-3.12.82.83-3.04-.2-.31a8.196 8.196 0 0 1-1.26-4.38c0-4.54 3.7-8.24 8.24-8.24zm4.52 11.66c-.19-.09-1.12-.55-1.3-.61-.17-.07-.3-.1-.43.1-.12.19-.49.61-.6.74-.11.12-.23.14-.42.05-.19-.09-.81-.3-1.55-.96-.57-.51-.96-1.14-1.07-1.33-.11-.19-.01-.3.08-.39.09-.09.19-.23.29-.35.09-.12.13-.2.19-.33.07-.14.03-.26-.02-.35-.05-.09-.43-1.04-.6-1.42-.16-.37-.32-.32-.44-.33l-.37-.01c-.13 0-.34.05-.51.24-.18.19-.68.66-.68 1.62s.7 1.88.8 2.01c.09.14 1.37 2.1 3.32 2.94.46.2.83.32 1.11.41.47.15.89.13 1.23.08.38-.06 1.12-.46 1.28-.9.16-.44.16-.82.11-.9-.04-.08-.17-.13-.36-.23z"/></svg>
+          <span>WhatsApp</span>
+        </a>
+      </div>
+
+      <button type="button" class="mobile-nav-toggle" aria-label="Toggle navigation menu" aria-expanded="false">
+        <span class="hamburger-bar"></span>
+        <span class="hamburger-bar"></span>
+        <span class="hamburger-bar"></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- Mobile Drawer -->
+  <div class="mobile-drawer-backdrop" aria-hidden="true"></div>
+  <aside class="mobile-drawer" role="dialog" aria-label="Mobile Navigation">
+    <nav class="mobile-drawer-nav">
+      <a href="index.html" class="mobile-nav-link">Home</a>
+      <a href="about.html" class="mobile-nav-link">About Practice</a>
+      <a href="services.html" class="mobile-nav-link active">Clinical Services</a>
+      <a href="contact.html" class="mobile-nav-link">Contact &amp; Timings</a>
+    </nav>
+    <div class="mobile-drawer-footer">
+      <a href="tel:07200802900" class="btn btn-secondary" style="width: 100%;">Call 072008 02900</a>
+      <a href="https://wa.me/917200802900?text=Hello%20Dr.%20Menakha's%20Dentistry,%20I%20would%20like%20to%20consult%20regarding%20an%20appointment." target="_blank" rel="noopener" class="btn btn-whatsapp" style="width: 100%;">Chat on WhatsApp</a>
+    </div>
+  </aside>
+
+  <main id="main-content">
+    
+    <!-- Page Hero -->
+    <section class="page-hero-editorial">
+      <div class="container">
+        <div class="page-hero-inner" data-reveal>
+          <div class="eyebrow">Clinical Treatments</div>
+          <h1 class="page-hero-title">Prosthodontic precision, restorative dentistry &amp; oral health.</h1>
+          <p class="page-hero-sub">
+            All treatment planning is performed directly by <strong>Dr. P. Menakhasundhari M.D.S.</strong>, Prosthodontist and Implantologist (Regd No: 23712). We prioritize anatomical preservation, structural durability, and factual clinical clarity.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Services Editorial Layout -->
+    <section class="section-spacing">
+      <div class="container">
+        
+        <div class="services-layout-grid">
+          
+          <!-- Sticky Category Nav for Desktop -->
+          <aside class="services-sticky-sidebar" aria-label="Services Navigation">
+            <span style="font-size: 0.72rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.14em; color: var(--color-gold-600); margin-bottom: 0.5rem;">
+              Categories
+            </span>
+            <a href="#cat-prosthodontics" class="services-nav-anchor active">
+              <span>Prosthodontics</span>
+              <span>&rarr;</span>
+            </a>
+            <a href="#cat-implants" class="services-nav-anchor">
+              <span>Dental Implants</span>
+              <span>&rarr;</span>
+            </a>
+            <a href="#cat-restorative" class="services-nav-anchor">
+              <span>Restorative Care</span>
+              <span>&rarr;</span>
+            </a>
+            <a href="#cat-preventive" class="services-nav-anchor">
+              <span>Preventive Hygiene</span>
+              <span>&rarr;</span>
+            </a>
+            <div style="margin-top: 1.5rem; padding-top: 1rem; border-top: 1px solid var(--border-light);">
+              <a href="https://wa.me/917200802900?text=Hello%20Dr.%20Menakha's%20Dentistry,%20I%20would%20like%20to%20consult%20regarding%20an%20appointment." target="_blank" rel="noopener" class="btn btn-whatsapp btn-sm" style="width: 100%;">
+                WhatsApp Us
+              </a>
+            </div>
+          </aside>
+
+          <!-- Main Services Content Feed -->
+          <div class="services-content-col">
+            
+            <!-- Category 1: Prosthodontics -->
+            <section id="cat-prosthodontics" class="service-category-block" data-reveal>
+              <div class="service-category-head">
+                <div class="service-category-num">Category 01</div>
+                <h2>Prosthodontics &amp; Tooth Replacement</h2>
+                <div class="service-tamil-sub">செயற்கை பல் கட்டுதல் நிபுணர்</div>
+                <p style="color: var(--color-text-muted); font-size: 1.05rem; margin-top: 0.6rem;">
+                  Prosthodontics is the specialized branch of dentistry devoted to restoring and replacing damaged or lost teeth using crowns, fixed bridges, and dentures.
+                </p>
+              </div>
+
+              <div class="service-detail-item">
+                <div class="service-detail-title-row">
+                  <h3 class="service-detail-title">Dental Crowns (Caps)</h3>
+                  <a href="https://wa.me/917200802900?text=Hello%20Dr.%20Menakha's%20Dentistry,%20I%20would%20like%20to%20consult%20regarding%20Dental%20Crowns." target="_blank" rel="noopener" class="editorial-link">Consult on WhatsApp &rarr;</a>
+                </div>
+                <p style="color: var(--color-text-muted); font-size: 0.95rem; line-height: 1.65;">
+                  Full-coverage ceramic and zirconia crowns designed to protect structurally compromised teeth, fractured cusps, or teeth that have undergone root canal treatment. Custom-milled for accurate marginal fit, bite alignment, and natural tooth appearance.
+                </p>
+                <div class="service-scope-tags">
+                  <span class="service-badge">Zirconia Crowns</span>
+                  <span class="service-badge">Ceramic Restorations</span>
+                  <span class="service-badge">Post-Endodontic Crowns</span>
+                </div>
+              </div>
+
+              <div class="service-detail-item">
+                <div class="service-detail-title-row">
+                  <h3 class="service-detail-title">Fixed Dental Bridges</h3>
+                  <a href="https://wa.me/917200802900?text=Hello%20Dr.%20Menakha's%20Dentistry,%20I%20would%20like%20to%20consult%20regarding%20Fixed%20Dental%20Bridges." target="_blank" rel="noopener" class="editorial-link">Consult on WhatsApp &rarr;</a>
+                </div>
+                <p style="color: var(--color-text-muted); font-size: 0.95rem; line-height: 1.65;">
+                  A fixed solution for bridging the gap created by one or more missing teeth. Anchored securely onto neighboring abutment teeth, bridges restore masticatory function, prevent shifting of adjacent teeth, and maintain facial profile.
+                </p>
+                <div class="service-scope-tags">
+                  <span class="service-badge">Multi-unit Bridges</span>
+                  <span class="service-badge">Bite Stabilization</span>
+                </div>
+              </div>
+
+              <div class="service-detail-item">
+                <div class="service-detail-title-row">
+                  <h3 class="service-detail-title">Complete &amp; Partial Dentures</h3>
+                  <a href="https://wa.me/917200802900?text=Hello%20Dr.%20Menakha's%20Dentistry,%20I%20would%20like%20to%20consult%20regarding%20Dentures." target="_blank" rel="noopener" class="editorial-link">Consult on WhatsApp &rarr;</a>
+                </div>
+                <p style="color: var(--color-text-muted); font-size: 0.95rem; line-height: 1.65;">
+                  Custom-molded full dentures for complete arch tooth loss, as well as cast-partial and flexible acrylic partial dentures. Fabricated with meticulous attention to border molding, soft tissue comfort, and balanced occlusion for senior patients.
+                </p>
+                <div class="service-scope-tags">
+                  <span class="service-badge">Full Arch Dentures</span>
+                  <span class="service-badge">Cast Partial Dentures</span>
+                  <span class="service-badge">Geriatric Care</span>
+                </div>
+              </div>
+            </section>
+
+            <!-- Category 2: Implantology -->
+            <section id="cat-implants" class="service-category-block" data-reveal>
+              <div class="service-category-head">
+                <div class="service-category-num">Category 02</div>
+                <h2>Dental Implantology</h2>
+                <div class="service-tamil-sub">இம்பிளான்ட் நிபுணர் (Implant Specialist)</div>
+                <p style="color: var(--color-text-muted); font-size: 1.05rem; margin-top: 0.6rem;">
+                  Advanced tooth replacement that substitutes the missing tooth root with a biocompatible fixture, providing permanent anchor for lifelike crowns.
+                </p>
+              </div>
+
+              <div class="service-detail-item">
+                <div class="service-detail-title-row">
+                  <h3 class="service-detail-title">Single Tooth Dental Implants</h3>
+                  <a href="https://wa.me/917200802900?text=Hello%20Dr.%20Menakha's%20Dentistry,%20I%20would%20like%20to%20consult%20regarding%20Single%20Tooth%20Dental%20Implants." target="_blank" rel="noopener" class="editorial-link">Consult on WhatsApp &rarr;</a>
+                </div>
+                <p style="color: var(--color-text-muted); font-size: 0.95rem; line-height: 1.65;">
+                  Ideal when a single tooth has been extracted due to trauma, decay, or root fracture. Unlike traditional bridges, a dental implant replaces the tooth without requiring preparation or trimming of healthy adjacent enamel.
+                </p>
+                <div class="service-scope-tags">
+                  <span class="service-badge">Titanium Implants</span>
+                  <span class="service-badge">Bone Conservation</span>
+                  <span class="service-badge">Custom Abutments</span>
+                </div>
+              </div>
+
+              <div class="service-detail-item">
+                <div class="service-detail-title-row">
+                  <h3 class="service-detail-title">Implant-Supported Bridges &amp; Overdentures</h3>
+                  <a href="https://wa.me/917200802900?text=Hello%20Dr.%20Menakha's%20Dentistry,%20I%20would%20like%20to%20consult%20regarding%20Implant%20Overdentures." target="_blank" rel="noopener" class="editorial-link">Consult on WhatsApp &rarr;</a>
+                </div>
+                <p style="color: var(--color-text-muted); font-size: 0.95rem; line-height: 1.65;">
+                  For multiple missing teeth or loose complete dentures, implant-supported prostheses offer enhanced stability, eliminating denture slippage while stimulating healthy alveolar bone.
+                </p>
+                <div class="service-scope-tags">
+                  <span class="service-badge">Multi-Tooth Replacement</span>
+                  <span class="service-badge">Implant Overdentures</span>
+                </div>
+              </div>
+            </section>
+
+            <!-- Category 3: Restorative Care -->
+            <section id="cat-restorative" class="service-category-block" data-reveal>
+              <div class="service-category-head">
+                <div class="service-category-num">Category 03</div>
+                <h2>Restorative Dentistry &amp; Tooth Conservation</h2>
+                <p style="color: var(--color-text-muted); font-size: 1.05rem; margin-top: 0.6rem;">
+                  Treatments targeted at arresting tooth decay, rebuilding missing structure, and preserving the patient's natural tooth for as long as possible.
+                </p>
+              </div>
+
+              <div class="service-detail-item">
+                <div class="service-detail-title-row">
+                  <h3 class="service-detail-title">Tooth-Colored Composite Fillings</h3>
+                  <a href="https://wa.me/917200802900?text=Hello%20Dr.%20Menakha's%20Dentistry,%20I%20would%20like%20to%20consult%20regarding%20Composite%20Fillings." target="_blank" rel="noopener" class="editorial-link">Consult on WhatsApp &rarr;</a>
+                </div>
+                <p style="color: var(--color-text-muted); font-size: 0.95rem; line-height: 1.65;">
+                  Direct biomimetic composite resin fillings that chemically bond to natural enamel and dentin. Matched directly to your natural tooth shade, restoring cavities discreetly and cleanly.
+                </p>
+                <div class="service-scope-tags">
+                  <span class="service-badge">Composite Resins</span>
+                  <span class="service-badge">Cavity Repair</span>
+                  <span class="service-badge">Mercury-Free</span>
+                </div>
+              </div>
+
+              <div class="service-detail-item">
+                <div class="service-detail-title-row">
+                  <h3 class="service-detail-title">Endodontic Consultation &amp; Tooth Preservation</h3>
+                  <a href="https://wa.me/917200802900?text=Hello%20Dr.%20Menakha's%20Dentistry,%20I%20would%20like%20to%20consult%20regarding%20Endodontic%20Care%20and%20Tooth%20Preservation." target="_blank" rel="noopener" class="editorial-link">Consult on WhatsApp &rarr;</a>
+                </div>
+                <p style="color: var(--color-text-muted); font-size: 0.95rem; line-height: 1.65;">
+                  Comprehensive clinical assessment for deep decay or pulp infections causing toothache. We evaluate internal tooth vitality and discuss preservation pathways through root canal therapy.
+                </p>
+                <div class="service-scope-tags">
+                  <span class="service-badge">Pulp Assessment</span>
+                  <span class="service-badge">Pain Diagnosis</span>
+                </div>
+              </div>
+            </section>
+
+            <!-- Category 4: Preventive Care -->
+            <section id="cat-preventive" class="service-category-block" data-reveal>
+              <div class="service-category-head">
+                <div class="service-category-num">Category 04</div>
+                <h2>Preventive Care &amp; Oral Prophylaxis</h2>
+                <p style="color: var(--color-text-muted); font-size: 1.05rem; margin-top: 0.6rem;">
+                  The foundation of enduring dental wellness. Regular hygiene visits identify early enamel demineralization and protect periodontal bone support.
+                </p>
+              </div>
+
+              <div class="service-detail-item">
+                <div class="service-detail-title-row">
+                  <h3 class="service-detail-title">Ultrasonic Scaling &amp; Polishing</h3>
+                  <a href="https://wa.me/917200802900?text=Hello%20Dr.%20Menakha's%20Dentistry,%20I%20would%20like%20to%20consult%20regarding%20Ultrasonic%20Scaling%20and%20Polishing." target="_blank" rel="noopener" class="editorial-link">Consult on WhatsApp &rarr;</a>
+                </div>
+                <p style="color: var(--color-text-muted); font-size: 0.95rem; line-height: 1.65;">
+                  Gentle removal of hardened dental calculus (tartar) and surface stains using ultrasonic tips and fine prophylaxis pastes. Essential for stopping bleeding gums, reducing oral bad breath, and preventing periodontal disease.
+                </p>
+                <div class="service-scope-tags">
+                  <span class="service-badge">Tartar Removal</span>
+                  <span class="service-badge">Enamel Polish</span>
+                  <span class="service-badge">Gingival Health</span>
+                </div>
+              </div>
+
+              <div class="service-detail-item">
+                <div class="service-detail-title-row">
+                  <h3 class="service-detail-title">Diagnostic Oral Examinations</h3>
+                  <a href="https://wa.me/917200802900?text=Hello%20Dr.%20Menakha's%20Dentistry,%20I%20would%20like%20to%20consult%20regarding%20Diagnostic%20Oral%20Examinations." target="_blank" rel="noopener" class="editorial-link">Consult on WhatsApp &rarr;</a>
+                </div>
+                <p style="color: var(--color-text-muted); font-size: 0.95rem; line-height: 1.65;">
+                  Routine visual examination of teeth, soft tissues, tongue, and bite dynamics. Early detection of hidden cavities, enamel micro-cracks, and mucosal lesions before they develop into painful dental emergencies.
+                </p>
+                <div class="service-scope-tags">
+                  <span class="service-badge">Routine Checkup</span>
+                  <span class="service-badge">Occlusion Check</span>
+                </div>
+              </div>
+            </section>
+
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- Refined CTA Banner -->
+    <section class="section-spacing-sm cta-banner-section">
+      <div class="container">
+        <div class="cta-banner-content" data-reveal>
+          <div class="eyebrow eyebrow-dark">Individualized Evaluation</div>
+          <h2>Discuss your dental care with Dr. Menakhasundhari.</h2>
+          <p>
+            Whether considering tooth replacement with implants or seeking an unhurried dental checkup, book an evening consultation in Kolathur.
+          </p>
+          <div class="cta-banner-actions">
+            <a href="https://wa.me/917200802900?text=Hello%20Dr.%20Menakha's%20Dentistry,%20I%20would%20like%20to%20consult%20regarding%20an%20appointment." target="_blank" rel="noopener" class="btn btn-whatsapp">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12.04 2c-5.46 0-9.91 4.45-9.91 9.91 0 1.75.46 3.45 1.32 4.95L2.05 22l5.25-1.38c1.45.79 3.08 1.21 4.74 1.21 5.46 0 9.91-4.45 9.91-9.91 0-2.65-1.03-5.14-2.9-7.01A9.816 9.816 0 0 0 12.04 2zm.01 1.67c2.2 0 4.26.86 5.82 2.42a8.225 8.225 0 0 1 2.41 5.83c0 4.54-3.7 8.24-8.24 8.24-1.48 0-2.93-.4-4.2-1.15l-.3-.18-3.12.82.83-3.04-.2-.31a8.196 8.196 0 0 1-1.26-4.38c0-4.54 3.7-8.24 8.24-8.24zm4.52 11.66c-.19-.09-1.12-.55-1.3-.61-.17-.07-.3-.1-.43.1-.12.19-.49.61-.6.74-.11.12-.23.14-.42.05-.19-.09-.81-.3-1.55-.96-.57-.51-.96-1.14-1.07-1.33-.11-.19-.01-.3.08-.39.09-.09.19-.23.29-.35.09-.12.13-.2.19-.33.07-.14.03-.26-.02-.35-.05-.09-.43-1.04-.6-1.42-.16-.37-.32-.32-.44-.33l-.37-.01c-.13 0-.34.05-.51.24-.18.19-.68.66-.68 1.62s.7 1.88.8 2.01c.09.14 1.37 2.1 3.32 2.94.46.2.83.32 1.11.41.47.15.89.13 1.23.08.38-.06 1.12-.46 1.28-.9.16-.44.16-.82.11-.9-.04-.08-.17-.13-.36-.23z"/></svg>
+              <span>Chat on WhatsApp</span>
+            </a>
+            <a href="tel:07200802900" class="btn btn-secondary-dark">
+              Call 072008 02900
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Footer -->
+  <footer class="site-footer" role="contentinfo">
+    <div class="container">
+      <div class="footer-top-grid">
+        <div class="footer-brand-col">
+          <a href="index.html" class="brand-logo-link" aria-label="Dr Menakha's Dentistry Home" style="margin-bottom: 1.25rem;">
+            <picture>
+              <source srcset="assets/logo/clinic-logo-white.webp" type="image/webp">
+              <img src="assets/logo/clinic-logo-white.png" alt="Dr Menakha's Dentistry" class="brand-logo-img brand-logo-white" width="235" height="83" loading="lazy">
+            </picture>
+          </a>
+          <p class="footer-bio">
+            Clinical Prosthodontics &amp; Implantology led by <strong>Dr. P. Menakhasundhari M.D.S.</strong> Regd No: 23712.
+          </p>
+        </div>
+
+        <div>
+          <div class="footer-col-title">Navigation</div>
+          <ul class="footer-nav-list">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About Dr. Menakhasundhari</a></li>
+            <li><a href="services.html">Clinical Services</a></li>
+            <li><a href="contact.html">Contact &amp; Location</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <div class="footer-col-title">Practice Timings</div>
+          <div class="footer-hours-item">
+            <strong>Monday – Saturday:</strong><br>
+            5:00 PM – 9:30 PM
+          </div>
+          <div class="footer-hours-item">
+            <strong>Sunday:</strong><br>
+            Closed
+          </div>
+        </div>
+
+        <div>
+          <div class="footer-col-title">Location &amp; Contact</div>
+          <div class="footer-contact-item">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>
+            <span>Plot No.7, Devaki Nagar 2nd Cross St, Ponniyammanmedu, Kolathur, Chennai 600110</span>
+          </div>
+          <div class="footer-contact-item">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
+            <span><a href="tel:07200802900" style="color: #fff; font-weight: 600;">072008 02900</a></span>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <div>&copy; <span id="currentYear">2026</span> Dr Menakha's Dentistry. All rights reserved.</div>
+        <div>Official Website: drmenakhasdentistry.com · Ponniyammanmedu, Kolathur, Chennai</div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Mobile Sticky Bar -->
+  <div class="mobile-sticky-bar" role="region" aria-label="Quick Mobile Actions">
+    <div class="mobile-sticky-bar-inner">
+      <a href="tel:07200802900" class="btn btn-secondary btn-sm">Call Clinic</a>
+      <a href="https://wa.me/917200802900?text=Hello%20Dr.%20Menakha's%20Dentistry,%20I%20would%20like%20to%20consult%20regarding%20an%20appointment." target="_blank" rel="noopener" class="btn btn-whatsapp btn-sm">WhatsApp</a>
+    </div>
+  </div>
+
+  <script src="assets/js/main.js"></script>
+  <script>
+    document.getElementById('currentYear').textContent = new Date().getFullYear();
+
+    // Scroll spy for sticky sidebar
+    const navAnchors = document.querySelectorAll('.services-nav-anchor');
+    const sections = document.querySelectorAll('.service-category-block');
+
+    window.addEventListener('scroll', () => {
+      let currentId = '';
+      sections.forEach(sec => {
+        const top = sec.offsetTop - 180;
+        if (window.scrollY >= top) {
+          currentId = sec.getAttribute('id');
+        }
+      });
+      navAnchors.forEach(a => {
+        if (a.getAttribute('href') === `#${currentId}`) {
+          a.classList.add('active');
+        } else {
+          a.classList.remove('active');
+        }
+      });
+    }, { passive: true });
+  </script>
+</body>
+</html>
